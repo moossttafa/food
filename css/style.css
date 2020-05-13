@@ -1,0 +1,517 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    box-sizing: border-box;
+    }
+/*Frame Work*/
+.hidden{
+    display: none;
+}
+.upper{
+    text-transform: uppercase;
+}
+.align-left{
+    float: left;
+}
+.align-right{
+  float: right;
+}
+.align-center{
+    text-align: center;
+}
+.upper-bar{
+    background: #FFF;
+    color: #000;
+    padding-top: 30px; 
+}
+.upper-bar .container{
+    border-bottom: 1px solid #000; 
+}
+.upper-bar .container .row{
+    padding-bottom: 10px;
+}
+.upper-bar .info-left{
+    
+}
+.upper-bar .info-left i{
+    padding-right: 10px;
+}
+.upper-bar .info-left p{
+   margin: 0px;
+}
+
+.upper-bar .info-left p:last-child span{
+    color: #80b435;
+    font-size: 19px;
+    font-weight: 600;
+}
+.upper-bar .info-right i{
+    color: #000;
+}
+.upper-bar .info-right .icon-card{
+    position: relative;
+    cursor: pointer;
+}
+.upper-bar .info-right .icon-card .cart-count{
+     font-size: 11px;
+    color: #fff;
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    line-height: 18px;
+    text-align: center;
+    position: absolute;
+    bottom: -6px;
+    right: -12px;
+    font-family: "Montserrat";
+    border-radius: 50%;
+    background: #80b435;
+}
+   
+/*End upper-bar */
+
+/*Start Nav bar*/
+.navbar{
+    background-color: #FFF;
+}
+.navbar-brand >span{
+    font-size: 30px;
+}
+.navbar-brand span:first-child{
+    color: #08526d;
+    font-weight: bold;
+}
+.navbar-brand span:last-child{
+    color: #ec1c23;
+}
+.navbar-nav .nav-link {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    font-weight: 600;
+    
+}
+.navbar-light .navbar-nav .active>.nav-link{
+  color: #80b435;
+
+}
+.navbar-light .navbar-nav{
+    margin: auto
+}
+
+/*End Nav bar*/
+/*Start About*/
+.about{
+    position: relative;
+    bottom: 70px;
+    margin-bottom: 30px;
+}
+.about .container{
+    box-shadow: 0px 8px 33px 0px rgba(0, 0, 0, 0.13);
+    background-color: #FFF;
+}
+.about .container .row{
+    padding-top: 10px;
+}
+
+.about .container .row h1{
+      margin: 0px;
+    font-size: 23px;
+}
+
+/*End About*/
+
+/*Start shiping*/
+
+.shoping{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.shoping ul{
+     padding: 50PX 0px;   
+    display: block;
+}
+.shoping ul .selector{
+    background-color: #80b435;
+     border: 2px solid #80b435;
+    color: #000;
+
+}
+.shoping ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    border: 2px solid #D4cccc;
+    color: #A7A7A7;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.shoping .product{
+    position: relative;
+}
+.shoping .prodact .prodact-imge  {
+    overflow: hidden;
+}
+.shoping .prodact .row{
+    margin-bottom: 30px;
+}
+
+.shoping .prodact-imge img{
+    width: 100%;
+    
+}
+.shoping .prodact-imge .active-icone{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+     width: 255px;
+    height: 45px;
+    margin: auto;
+    background-color: #FFF;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 3px 4px 35px 0px rgba(0, 0, 0, 0.09);
+    display: none;
+}
+.shoping .prodact-imge:hover .active-icone{
+    
+    display: block;
+}
+.shoping .prodact-imge .active-icone a{
+    
+    color: #000;
+}
+.shoping .prodact-imge .active-icone i{
+    padding: 0px 20px;
+}
+.shoping button{
+   padding: 10px; 
+   border-radius: 20px;
+   background-color: #fff;
+   border: 1px solid #000
+   
+}
+.shoping button:hover{
+    background-color: #80b435;
+    border: 1px solid #80b435
+}
+/*End Soping*/
+/*Start choose-us*/
+.choose-us{
+    margin: 70px 0px;
+    overflow: hidden;
+}
+.choose-us .title-choose{
+    padding: 20px 0px
+}
+.choose-us .title-choose h1{
+    font-weight: 600;
+    font-size: 50px;
+}
+.choose-us .title-choose p{
+    max-width: 760px;
+    font: 400 16px/25px "Roboto Slab";
+    color: #666;
+    margin: 0 auto;
+    font-size: 20px;
+
+}
+.choose-us .border-choose {
+    background: url(../img/bg-border-choose.png) repeat-x scroll center;
+    margin: auto;
+    max-width: 480px;
+    text-align: center;
+    margin-top: 30px;
+}
+.choose-us .border-choose .imges {
+    display: inline-block;
+    width: 70px;
+    text-align: center;
+    background: #fff;
+}
+.choose-us .border-choose .images img{
+        vertical-align: middle;
+
+}
+.choose-us .align-left{
+    margin-top: 30px;
+    text-align: left;
+}
+.choose-us .align-left .imge-medil{
+    width: 100%;
+}
+.choose-us .align-right
+{
+    margin-top: 30px;
+    text-align: right;
+}
+.choose-us .align-left .text,
+.choose-us .align-right .text
+{
+    margin-bottom: 80px;
+}
+.choose-us .align-left .text img,
+.choose-us .align-right .text img{
+    vertical-align: middle;
+}
+.choose-us .align-left .text h3,
+.choose-us .align-right .text h3{
+    display: inline-block;
+    margin-left: 10px;
+    color: #80b435;
+    font: 400 24px/30px "Roboto Slab";
+    margin-bottom: 20px;
+}
+
+.choose-us .align-left .text p,
+.choose-us .align-right .text p{
+    display: block;
+    color: #666;
+    font: 400 18px/20px "Roboto Slab";
+    
+}
+
+   
+/*End choose-us*/
+/*Start testimonials*/
+.testimonials{
+    padding: 50px 0px 50px 0px;
+    background-image: url(../img/Background5.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.testimonials h1{
+    font-weight: bold;
+    color: #FFF;
+}
+.testimonials .lead{
+   line-height: 2em;;
+    color: #FFF;
+    font-weight: bold;
+    font-family: Cursive;
+}
+.testimonials span{
+    font-size: 23px;
+    font-weight: bold;
+    color: #80b435;
+    text-shadow: 3px 1px 5px #000;
+
+
+}
+.testimonials .carousel-inner{
+    min-height: 160px;
+}
+.testimonials .carousel-indicators{
+    position: static;
+}
+.testimonials .carousel-indicators .active{
+    opacity: 1;
+    border: 2px solid #80b435;
+
+}
+.testimonials .carousel-indicators li{
+    text-indent: 0;
+    width: 100px;
+    height: 100px;
+    opacity: 0.5;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 5px;
+    transition: all 1s ease;
+
+}
+.testimonials .carousel-indicators li img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%
+}
+
+.testimonials .carousel{
+    margin-bottom: 75px;;
+}
+
+/*End testimonials*/
+
+/*Start sipmle-bannar*/
+.sipmle-bannar{
+    background-image: url("../img/bonas 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    overflow: hidden;
+    height: auto;
+}
+.sipmle-bannar .count-wrapper .simple-content h1{
+    font-size: 25px;
+    color: #FFF;
+    font-family: cursive;
+    margin: 10px 0px;
+}
+.sipmle-bannar .count-wrapper .simple-content button{
+    background-color: #DDD;
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 20px;
+    border: 1px solid #DDD;
+    font-family: inherit;
+    text-transform: capitalize;
+}
+.sipmle-bannar .count-wrapper .simple-content button:hover{
+    background-color: #80b435;
+    border: 1px solid #80b435;
+}
+.sipmle-bannar .count-wrapper{
+    padding: 94px 0px;
+}
+
+/*End Simple-banner*/
+
+/*Start shiping*/
+
+.shoping2{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.shoping2 ul{
+    padding: 50PX 0px;
+    display: block;
+}
+.shoping2 ul .selector{
+    background-color: #80b435;
+    border: 2px solid #80b435;
+    color: #000;
+
+}
+.shoping2 ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    border: 2px solid #D4cccc;
+    color: #A7A7A7;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.shoping2 .product{
+    position: relative;
+}
+.shoping2 .prodact .prodact-imge  {
+    overflow: hidden;
+}
+.shoping2 .prodact .row{
+    margin-bottom: 30px;
+}
+
+.shoping2 .prodact-imge img{
+    width: 100%;
+
+}
+.shoping2 .prodact-imge .active-icone{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 255px;
+    height: 45px;
+    margin: auto;
+    background-color: #FFF;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 3px 4px 35px 0px rgba(0, 0, 0, 0.09);
+    display: none;
+}
+.shoping2 .prodact-imge:hover .active-icone{
+
+    display: block;
+}
+.shoping2 .prodact-imge .active-icone a{
+
+    color: #000;
+}
+.shoping2 .prodact-imge .active-icone i{
+    padding: 0px 20px;
+}
+.shoping2 button{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 1px solid #000
+
+}
+.shoping2 button:hover{
+    background-color: #80b435;
+    border: 1px solid #80b435
+}
+/*End Soping*/
+
+/*============footer==============*/
+.footer-box{
+    position: relative;
+    overflow: hidden;
+    background-color: #DDD;
+    padding: 30px 0px;
+
+}
+.footer-box .box-shild h5{
+    color: #333;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.footer-box .box-shild a{
+    color: #666 ;
+    font-size: 17px;
+    text-decoration: none !important;
+    padding-bottom: 14px;
+
+}
+.footer-box .box-shild h5{
+     font: 400 20px "Roboto Slab";
+     color: #80b435;
+     padding-bottom: 10px;
+     margin-bottom: 20px;
+     position: relative;
+     text-transform: capitalize;
+ }
+.footer-box .box-shild  p {
+     color: #666;
+     font: 400 18px/24px "Roboto Slab";
+ }
+.footer-box .box-shild  .social{
+    margin-bottom: 20px;
+}
+.footer-box .box-shild  .social a{
+    padding: 0px 10px;
+}
+.footer-box .box-shild  .paypal{
+    width: 222px;
+}
+.footer-box .box-shild  .paypal img{
+    width: 100%;
+}
+.footer-box .box-shild . Subscribe{
+  margin-top: 15px;
+}
+.footer-box .Subscribe input{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #e5e5e5;
+    padding: 0px 15px;
+    font: 300 18px "Roboto";
+    color: #898989;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+.footer-box .Subscribe button{
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid #DDD;
+    background-color: #80b435;
+}

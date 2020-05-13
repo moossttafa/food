@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+/* lg screen*/
+
+
+
+@media (max-width :767px)
+{
+    .upper-bar .info-left {
+        margin-bottom: 30px;
+        text-align: center !important;
+
+    }
+    .upper-bar .stylle{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .upper-bar .info-right {
+        margin-bottom: 30px;
+        text-align: center !important;
+
+    }
+    .about{
+        bottom: 0;
+        margin-top: 30px;
+
+    }
+    .about .container .row .stylee {
+        padding: 15px;
+    }
+    .shoping ul li{
+        margin: 5px;
+    }
+    .shoping .prodact .prodact-imge {
+        margin-bottom: 30px;
+    }
+    .choose-us .align-left{
+        text-align: center !important;
+    }
+    .choose-us .align-left .imge-medil{
+        text-align: center !important;
+        width: 100%;
+    }
+    .choose-us .align-right{
+        text-align: center ;
+    }
+    .sipmle-bannar{
+        display: none;
+    }
+    .testimonials .carousel-indicators li{
+        width: 100px;
+        height: 60px;
+    }
+
+}
+
+
